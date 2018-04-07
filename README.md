@@ -50,6 +50,24 @@ console.log(x.concat(x))
 ``` console
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b']
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+```
+## 求数组最大值最小值
+``` python
+x=[2,4,21,4,123]
+print(max(x))
+print(min(x))
+```
+
+``` js
+var x=[2,4,21,4,123];
+console.log(Math.max.apply(null, x));
+console.log(Math.min.apply(null, x));
+```
+
+``` console
+123
+2
 ```
 
 ## 首字母大写
