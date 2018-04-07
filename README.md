@@ -31,7 +31,7 @@ hhhhhhhh
 hhhhhhhhh
 ```
 
-## 序列链接和重复
+## 序列连接和重复操作
 ``` python
 x=[1,2,3,4,5,6,7,8,9]
 y=['a','b']
@@ -50,4 +50,18 @@ console.log(x.concat(x))
 ``` console
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b']
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+## 首字母大写
+``` python
+x='abcdef'
+print(x.capitalize())
+```
+
+``` js
+var x='abcdef';
+x.substring(0,1).toUpperCase()+x.substring(1);
+
+//正则表达式
+x.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase());
 ```
